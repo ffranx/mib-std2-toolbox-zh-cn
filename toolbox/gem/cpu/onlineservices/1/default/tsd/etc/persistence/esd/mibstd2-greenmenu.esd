@@ -1,0 +1,75 @@
+###########################################################################################
+# 
+# Custom Green Engineering Menu screen
+# Author:		Olli
+# Version:		1.0
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main -> Customization -> GreenMenu
+#
+###########################################################################################
+screen GreenMenu Customization
+
+keyValue
+    value	String sys 0x00000000 0
+    label   "把 *.esd 放进 custom/greenmenu"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "脚本放 greenmenu/scripts, 路径写成"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "/tsd/etc/persistence/esd/scripts"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "注意: 每次更新工具箱后要重新导入"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "更新后需重新导入; 常用可反馈"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "告诉我们是否需要改进, 谢谢 :-)"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/copy_esd.sh"
+   label    "写自定义绿菜单与脚本到主机" 
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/restore_esd.sh"
+   label    "从备份恢复绿菜单"
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "--- 仅开发者 ---"
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/copy_devesd.sh"
+   label    "安装扩展版绿菜单"

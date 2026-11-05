@@ -1,0 +1,33 @@
+###########################################################################################
+# 
+# Custom Green Engineering Menu screen
+# Author:		YOX, Olli & lprot
+# Version:		1.5
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main
+#
+###########################################################################################
+screen MIBSTD2_Toolbox Main
+
+keyvalue
+	value	String sys 0x00000000 0
+	label	"欢迎使用 MIB STD2 工具箱 v1.5"
+	poll	0
+
+keyValue
+    value	String sys 0x00000000 0
+    label	"警告: 可能损坏主机并失去保修"
+    poll	0
+
+keyValue
+    value	String sys 0x00000000 0
+    label	"请谨慎操作"
+    poll	0
+
+keyValue
+    value	String sys 0x00000000 0
+	label	"--------------------------------"
+	poll	0

@@ -1,0 +1,41 @@
+###########################################################################################
+#
+# Custom Green Engineering Menu screen
+# Author:		YOX, Olli & lprot
+# Version:		1.0
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main -> Update & Uninstall
+#
+###########################################################################################
+screen Update_and_Uninstall MIBSTD2_Toolbox
+
+keyvalue
+	value	String sys 0x00000000 0
+	label 	"在这里更新或卸载工具箱"
+	poll 	0
+
+keyvalue
+	value	String sys 0x00000000 0
+	label 	"警告: 要更新就不要卸载"
+	poll 	0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/util_update.sh"
+   label    "从 SD/U盘 更新工具箱"
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/util_uninstall.sh"
+   label    "卸载工具箱"

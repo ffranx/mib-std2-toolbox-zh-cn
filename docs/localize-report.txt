@@ -1,0 +1,1105 @@
+src          : C:\Users\12321\Documents\deepseek-harness\default-workspace\mib2-zh\src
+out          : C:\Users\12321\Documents\deepseek-harness\default-workspace\mib2-zh\out-safe
+encoding     : utf-8
+screens mode : False
+sanitize     : ascii
+label 替换    : 267 处
+screen 替换   : 0 处
+未翻译 label  : 1043 条（去重）
+
+--- 按文件 ---
+mibstd2-adaptation.esd             labels=  1 screens=  0
+mibstd2-advanced.esd               labels=  1 screens=  0
+mibstd2-carBAPdeviceList.esd       labels=  1 screens=  0
+mibstd2-carCANdeviceList.esd       labels=  1 screens=  0
+mibstd2-carDeviceBUS.esd           labels=  1 screens=  0
+mibstd2-carMenuOp.esd              labels=  1 screens=  0
+mibstd2-customization.esd          labels=  3 screens=  0
+mibstd2-dump.esd                   labels=  8 screens=  0
+mibstd2-greenmenu.esd              labels= 10 screens=  0
+mibstd2-main.esd                   labels=  4 screens=  0
+mibstd2-mibinfo.esd                labels=  6 screens=  0
+mibstd2-nav.esd                    labels= 20 screens=  0
+mibstd2-network.esd                labels= 12 screens=  0
+mibstd2-remapbuttons.esd           labels= 14 screens=  0
+mibstd2-skins.esd                  labels=  7 screens=  0
+mibstd2-sounds.esd                 labels=  1 screens=  0
+mibstd2-tools.esd                  labels= 35 screens=  0
+mibstd2-uninstall.esd              labels=  4 screens=  0
+Networking.esd                     labels=  2 screens=  0
+VW_V01_Debugging.esd               labels=  1 screens=  0
+VW_V01_Debugging_MLP.esd           labels=  1 screens=  0
+VW_V01_Nav_Addon.esd               labels=  3 screens=  0
+mibstd2-adaptation.esd             labels=  1 screens=  0
+mibstd2-advanced.esd               labels=  1 screens=  0
+mibstd2-carBAPdeviceList.esd       labels=  1 screens=  0
+mibstd2-carCANdeviceList.esd       labels=  1 screens=  0
+mibstd2-carDeviceBUS.esd           labels=  1 screens=  0
+mibstd2-carMenuOp.esd              labels=  1 screens=  0
+mibstd2-customization.esd          labels=  3 screens=  0
+mibstd2-dump.esd                   labels=  8 screens=  0
+mibstd2-greenmenu.esd              labels= 10 screens=  0
+mibstd2-main.esd                   labels=  4 screens=  0
+mibstd2-mibinfo.esd                labels=  6 screens=  0
+mibstd2-nav.esd                    labels= 20 screens=  0
+mibstd2-network.esd                labels= 12 screens=  0
+mibstd2-remapbuttons.esd           labels= 14 screens=  0
+mibstd2-skins.esd                  labels=  7 screens=  0
+mibstd2-sounds.esd                 labels=  1 screens=  0
+mibstd2-tools.esd                  labels= 35 screens=  0
+mibstd2-uninstall.esd              labels=  4 screens=  0
+
+--- 未翻译的 label（照着往 zh_map.json 里加） ---
+              high:
+            Comp offset
+            Offset B
+          MIB informations. Added additional features to the menus. Bugfixing.
+          Online services settings support. Many other small fixes and
+          Starting from this version the Toolbox is installed in one go.
+          Sysinfo is added to Mib_info menu. Thanks to lprot for his work!
+          are separated. Skins are now imported via single menu item.
+          improvements.
+          many other small fixes and improvements.
+   FM link-back Delay
+  *.wav should be put into corresponding subfolder on the Toolbox drive.
+  --- BAP based features ---
+  --- CAN based features ---
+  --- Developer's files (not included in dump all) ---
+  --- Sound files ---
+  --- System files ---
+  ------ MIB_STD2_VW_ESD_V59 ------
+  --------
+  ---just for testing purposes of MIB logging protocol---
+  -2=off -1=min 0=default 1=extended 2=custom
+  -3dB Threshold
+  /etc/shadow
+  /tsd/var partition
+  16k Frequency DEC
+  16k Frequency INC
+  == DEVICE MODE ==     (Car Interface in Host Mode)
+  == HOST MODE ==     (Car Interface in Device Mode)
+  A2C Blend Snr Thl AM (0.1dB)
+  A2C Blend Snr Thl FM (0.1dB)
+  AF inhibit after man tune:
+  AF switch:
+  AFList
+  AM (522 - 1629 kHz)
+  AM BW  Freq Step Down Size
+  AM BW  Freq Step Up Size
+  AM BW Hold Count (46.4ms)
+  AM BW hi Freq IDX (344.5Hz)
+  AM BW hi2lo SNR Thresh(0.1dB)
+  AM BW hi2lo Trans Time (46.4ms)
+  AM BW lo Freq IDX (344.5Hz)
+  AM BW lo2hi SNR Thresh(0.1dB)
+  AM BW lo2hi Trans Time (46.4ms)
+  AM M2S Trans Time (46.4ms)
+  AM MS Start BW Cutoff (344.5Hz)
+  AM MS StereoSep Max (%)
+  AM Mono to Stereo Trans Enable
+  AM S2M Trans Time (46.4ms)
+  AM Smooth Blend Enable
+  AM-Tuner 1-2
+  ASCTy
+  ASR Engine Version
+  ASR Garbage (ratio)
+  ASR N-Best accuracy-latency (1/100)
+  ASR acoustic accuracy-latency (1/100)
+  ASR leading silence (dsec)
+  ASR max n-best 2nd pass (length)
+  ASR max n-best before postfilter (length)
+  ASR max time open (dsec)
+  ASR max time utterance (dsec)
+  ASR trailing silence (dsec)
+  ASR word penalty (1/100)
+  Accept Video Focus Requests
+  Activate LVDS test I/F (only PQ):
+  Activate selected configuration
+  Activation:
+  Active Backend
+  Active MAP device
+  Active SDS language
+  Active TTS language
+  Adaptive cruise control (ACC):
+  Adaptive cruise control (ACC): 
+  Adaptive key: 
+  Adaptive keys: 
+  Adblue: 
+  Addressbook
+  Air Suspension: 
+  Air conditioning (master): 
+  Air conditioning (slave1): 
+  Air conditioning (slave2): 
+  Air conditioning: 
+  Air suspension: 
+  Alps 2nd UART
+  Alps FW version
+  Alps MAC address
+  Amplifier
+  Amplifier: 
+  Amplitudes
+  Analog/Core Adv. Blend AM
+  Analog/Core Adv. Blend FM
+  Analog/Core Adv. Blend HYB
+  Analog/Core Adv. Blend MPS
+  Analog/Core Adv. Blend SPS
+  Annoucement Source
+  Antenna
+  Antenna current (mA)
+  Antenna state
+  Attention ident: 
+  Audible tuner (3-auto):
+  Audio Codec
+  Audio Coding
+  Audio Events
+  Audio MOST
+  Audio Management
+  Audio Service List
+  Audio availability
+  Audio blocking notification
+  Audio decoder bitrate
+  Audio preference
+  Audio-Mute/Concealment ON/OFF
+  Audiotable Relevance
+  Audiotable Version
+  Auxiliary heating: 
+  Auxiliray heating: 
+  Available languages
+  Available log files
+  Available messaging instances
+  BBRevMajor
+  BEM shutdown susp. (s)
+  BER Audio/Data
+  BER Counters Reset
+  BER Mode Active
+  BER S1 (%)
+  BER S2 (%)
+  BER TER (%)
+  BT test mode frequency
+  BT transmitter test config
+  BT transmitter test mode
+  Backgroundscan:
+  Backup Logfiles
+  Based on the initial idea from Jille, rebuild and modified by YOX, Olli, lprot
+  Battery management: 
+  Bit Error Rates
+  Blend Rate ALD AM MPS
+  Blend Rate ALD FM MPS
+  Blend Rate FM SPS
+  Blend Rate HYB AM MPS
+  Blend Rate HYB FM MPS
+  Blend Threshold ALD AM MPS
+  Blend Threshold ALD FM MPS
+  Blend Threshold FM SPS
+  Blend Threshold HYB AM MPS
+  Blend Threshold HYB FM MPS
+  Blend Time AD AM (100ms)
+limits absolute 1 50 
+
+slider
+value per 0x02c80122 100060
+label 
+  Blend Time AD FM (100ms)
+limits absolute 1 50
+
+slider
+value per 0x02c80122 100062
+label 
+  Blocking of Legacy pairing while driving
+  Brake: 
+  C/N S1A (dB)
+  C/N S1B (dB)
+  C/N S2A (dB)
+  C/N S2B2 (dB)
+  C2E Blend Snr Thl AM (0.1dB)
+  C2E Blend Snr Thl FM (0.1dB)
+  CA Identifier
+  CA System Identifier
+  CA-Certificate
+  CAI Challenge
+  CAI Phase
+  CAUTION: Ensure that external power is connected to the car during any
+  CURRENT_DRIVING_STATE
+  Calibr. Auto catch:
+  Calibr. Power on:
+  Calibr. Time:
+  Calibrate touchcontroller
+  Capability
+  Car Services
+  CarLife Diagnosis off/on
+  CarLife protovol version
+  Central locking (ZV): 
+  Channel Seek DOWN
+  Channel Seek UP
+  Channel Tune +1
+  Channel Tune +20
+  Choose log file from source
+  Choose log file source
+  Circle count on pri Service
+  Clicktime (15.6ms):
+  Clock: 
+  Cluster Instrument
+  Coarse Position
+  Codec Concealment Level
+  Codec QA Demute
+  Codec QA Mute fast
+  Codec QS Mute
+  Coded Frequency Table
+  Common
+  Communication Plugin version
+  Compass: 
+  Component Index within Service
+  Concealment Level
+  Concealment_OFF: activate measurement mode
+  Conditional Access Flag
+  Config Table:
+  Connected BT devices
+  Connected Devices
+  Connected WiFi devices
+  Connectivity
+  Consumed data Traffic [kBytes]
+  Copy FEC to unit
+  Copy HMI to unit
+  Copy Progress Details:
+  Copy Progress:
+  Copy SWAP to unit
+  Copy SWDL to unit
+  Copy carplay oem icon to unit
+  Copy files to SD
+  Copy new ringtones from /custom/ringtones to unit
+  Copy new system sounds from /custom/sounds to unit
+  Copy new tts sounds from /custom/tts to unit
+  Copy online services settings to unit
+  Copy radio station logo DB to unit
+  Copy startup animations to unit
+  Copy to /media/mp000
+  Copy to /media/mp001
+  Core/Enhance Adv. Blend AM
+  Core/Enhance Adv. Blend FM
+  Core/Enhance Adv. Blend HYB
+  Core/Enhance Adv. Blend MPS
+  Core/Enhance Adv. Blend SPS
+  Country
+  Create new/inc. snapshot no.
+  Curr. Bandwidth
+  Current Audio Service Info
+  Current DAB-Station Info
+  Current Service Info
+  Current Station Info
+  Current log file name
+  Curve warner: 
+  DAB Audio Difference
+  DAB Delay Set
+  DAB Display
+  DAB LINKS
+  DAB Link-back Delay
+  DAB Linking Threshold
+  DAB-FM Linking-back Threshold
+  DAP activ
+  DDS control
+  DR Heading:
+  DR Speed:
+  DSCTy
+  Data Service Info
+  Data Service List
+  Data service traffic state
+  Dcnt:
+  Delay TP station after RDS lost:
+  Delete All TMC Messages
+  Delete FEC in unit
+  Delete Logfiles
+  Dev. names
+  Development Area Search (on/off) :
+  Device Certificate
+  Device lock
+  Disable QiChargeIcon
+  Disable SpeedWarnFix
+  Disconnect GNSS
+  Display Clipping Step 1:
+  Display Clipping Step 2:
+  Display Clipping Step 3:
+  Display Clipping Step 4:
+  Display Clipping Step 5:
+  Display Node 1 (x):
+  Display Node 1 (y):
+  Display Node 2 (x):
+  Display Node 2 (y):
+  Display Node 3 (x):
+  Display Node 3 (y):
+  Display Node 4 (x):
+  Display Node 4 (y):
+  Display Node 5 (x):
+  Display Node 5 (y):
+  Display Node 6 (x):
+  Display Node 6 (y):
+  Display configuration: 
+  Display unit
+  Don't be a dick watching movies while driving!
+  Drag gesture:
+  Drag2 gesture:
+  DragStep (Pixel):
+  Driver seat (master): 
+  Driving school: 
+  Eco rating: 
+  Efficiency assist (PEA): 
+  Enable AEC rec.
+  Enable Audio loopback test
+  Enable BT SIG test mode
+  Enable BT transmitter test
+  Enable DeadDetection
+  Enable HCI Tracing
+  Enable IRC
+  Enable MIC 1 rec.
+  Enable MIC 2 rec.
+  Enable Navigation Trace2SD
+  Enable PSD via Demo Mode
+  Enable PTT barge-in
+  Enable Position Trace2SD
+  Enable QiChargeIcon
+  Enable REF rec.
+  Enable SSP debug mode
+  Enable SpeedWarnFix
+  Enable TMC Trace2SD
+  Enable UDP Server
+  Enable USB Signal Integrity Test on USB2 (TestPacketMode)
+  Enable USB Signal-Integrity Test on USB1 (TestForceEnable)
+  Enable USB Signal-Integrity Test on USB1 (TestPacketMode)
+  Enable USB Signal-Integrity Test on USB2 (TestForceEnable)
+  Enable WiFi test mode
+  Enable logging
+  Enable timer
+  Enable traffic message detail view in HMI
+  Enable voice barge-in
+  Engineering reset:
+  Enh. Holdoff Timer AM
+  Enh. Holdoff Timer FM
+  Ensemble Label
+  Ensemble Verification Counter
+  Ensemble Verification Intervall
+  Ensemble list
+  Ent. lowering (APS):
+  Ent. lowering (Nav):
+  Ent. lowering factor (Nav):
+  Ent. lowering offset (Nav):
+  Entainment  current:
+  Entainment  max:
+  Entainment  min:
+  Entrys per Page:
+  Entrys per page:
+  ExBox: 
+  Export Precompiled Route
+  Export active protected profile
+  Export all log files of current day to SD card
+  Export all log files to SD card
+  Export last bMessage object
+  Export last recorded log file
+  Export memory to SD
+  Export vCards of public profile
+  Extended network interface (ENI): 
+  Exterior light: 
+  External debug mode:
+  Extra events
+  FEC (signed_exceptions_list)
+  FM Audio Difference
+  FM BW Trans Time 1-2 (100ms)
+  FM BW Trans Time 2-3 (100ms)
+  FM BW Trans Time 3-4 (100ms)
+  FM BW Trans Time 4-5 (100ms)
+  FM BW Trans Time 5-6 (100ms)
+  FM BW Trans Time 6-7 (100ms)
+  FM BW Trans Time 7-8 (100ms)
+  FM BW Transition Filter 1 (%)
+  FM BW Transition Filter 2 (%)
+  FM BW Transition Filter 3 (%)
+  FM BW Transition Filter 4 (%)
+  FM BW Transition Filter 5 (%)
+  FM BW Transition Filter 6 (%)
+  FM BW Transition Filter 7 (%)
+  FM BW Transition Filter 8 (%)
+  FM Delay Display
+  FM Delay Set
+  FM LINKS
+  FM Link
+  FM Linking Threshold
+  FM M2S Start BW Cutoff (100Hz)
+  FM M2S Trans Time (100ms)
+  FM Mono to Stereo Trans Enable
+  FM Smooth Blend Enable
+  FM Tuner 1-2
+  FM Tuner Infos
+  FM Tuner Infos - defined by DAB Module!
+  FM Volume Alignment Enable
+  FM. China (87.0 - 108.0 MHz)
+  FM. Japan (76.0 - 95.0 MHz)
+  FPA (Charisma): 
+  FRQ_Down
+  FRQ_Up
+  FileInfo_CODEC
+  Firmware version
+  First predef. prompt
+  First prompt in file
+  Flick gesture:
+  Flick2 gesture:
+  FlickStep (Pixel):
+  Force Audio Mode
+  Force registration cycle
+  Frame buffer blocking notification
+  Framework Sub-state
+  Front assist (AWV): 
+  Further Info
+  GNSS Calibration:
+  GNSS Date
+  GNSS Date:
+  GNSS Deviation
+  GNSS Heading:
+  GNSS Latitude
+  GNSS Latitude:
+  GNSS Longitude
+  GNSS Longitude:
+  GNSS Quality
+  GNSS Reset
+  GNSS SV
+  GNSS Speed
+  GNSS Speed:
+  GNSS System
+  GNSS Time
+  GNSS Time:
+  GNSS Values
+  GNSS Z-Level:
+  GW-Watchdog
+  Gateway_time
+  Get new Service List
+  Green Engineering Menu screens *.esd files (engdefs)
+  HC dyn.
+  HC dynamic
+  HC stat.
+  HC static
+  HDecRevMajor
+  HMI
+  HMI language:
+  HMI-TTS-Channel
+  HW Fan [rpm]
+  Hardware
+  Headup display (HUD): 
+  Host Address
+  Hybrid: 
+  IBOC Status Audio / Data Tuner
+  IBOC_service_lost
+  IBOC_sync_lost
+  ID3 Commercial Frame
+  ID3 XHDR Frame
+  ID3 iTunes Tagging
+  IEEE 802.11bg data rate
+  IEEE 802.11n data rate
+  IF AGC engaged
+  If you've paid for this toolbox, you've been scammed.
+  Ignore restricted access
+  Ignore theft protection flags
+  Image DB Deletion Switch
+  Immediate calibration
+  Import Precompiled Route
+  Import memory from SD
+  Incremental Update Version DB:
+  Inhibit AF Pos.:
+  Input source gain AM:
+  Input source gain AUX Adap.:
+  Input source gain AUX:
+  Input source gain Airplay:
+  Input source gain BT:
+  Input source gain Beep:
+  Input source gain Bluray:
+  Input source gain CDC:
+  Input source gain Cloud:
+  Input source gain DAB:
+  Input source gain DMB:
+  Input source gain DVB-T:
+  Input source gain DVD:
+  Input source gain FM:
+  Input source gain HDMI:
+  Input source gain MFP:
+  Input source gain MUCD:
+  Input source gain Messaging:
+  Input source gain Mirrorlink:
+  Input source gain Phone HFP:
+  Input source gain Phone Ringer MFP:
+  Input source gain Phone Ringer OB:
+  Input source gain Phone Voice:
+  Input source gain SDARS:
+  Input source gain TI:
+  Input source gain TIM:
+  Input source gain TTS Nav:
+  Input source gain TTS SDS:
+  Input source gain TV AV in:
+  Input source gain TV:
+  Input source gain Touchscreen:
+  Input source gain Tuner Online:
+  Input source gain Tuner Personal:
+  Input source gain Tuner TA:
+  Input source gain UPNP:
+  Input source gain Warning:
+  Interior light: 
+  Internal WiFi module
+  J5 root
+  Java patches for the HMI. Jar files are taken from custom/java on SD card.
+  Kl.30 vbat [V]
+  Knowledge is power, but only when shared.
+  LAST_BLUE_SCORE
+  LED1 Range A
+  LED1 Range B
+  LED2 Range A
+  LED2 Range B
+  LED3 Range A
+  LED3 Range B
+  LED4 Range A
+  LED4 Range B
+  LOAD SPEED CUT-OFF THRESHOLD
+  Lane change assist (SWA): 
+  Lane dep. warning (LDW/HCA): 
+  Last Installed Base Hash
+  Last http error codes
+  Last predef. prompt
+  Last prompt in file
+  Last recognition info
+  Last recognized command
+  Last saved snapshot dir no.
+  Learn Update Delay
+  Lights Node 1 (x):
+  Lights Node 1 (y):
+  Lights Node 2 (x):
+  Lights Node 2 (y):
+  Lights Node 3 (x):
+  Lights Node 3 (y):
+  Lights Node 4 (x):
+  Lights Node 4 (y):
+  Limit Displayed Message Length
+  Lingware Version
+  Linking Mode
+  Loop 1 hyst low:
+  Loop 2 hyst low:
+  Loop 3 hyst low:
+  Loop 4 hyst low:
+  Loudness flag
+  MClickStep (Pixel):
+  MClicktime (15.6ms):
+  MFL-joker-key: 
+  MFL: 
+  MIX ON/OFF
+  MMI Off1 (s)
+  MMI Off2 (s)
+  MOT Content
+  MU ip adress:
+  MUTE
+  Map Matched Position
+  Media
+  Mesurement M.(Concealment OFF)
+  Mic. Gain:
+  Microphone voltage level
+  Minimum Mute Duration
+  Mirror Link SW version
+  Mirror: 
+  MirrorLink
+  MirrorLink config
+  Mix History
+  ModSWRefMajor
+  ModuleHWRev A
+  ModuleTypeID A
+  Multi-touch support
+  Mute Ramp
+  NAV SD Card CID:
+  NOTE: Use the functions in this screen only if you know what you're doing!
+  Nav DB Component Version Information:
+  Nav Kernel Version:
+  Nav SW Version:
+  Navi  current:
+  Navi  max:
+  Navi  min:
+  Navigation
+  Navigation config
+  Next predef. prompt
+  Next prompt in file
+  Nightvision: 
+  No Setup/Configuration
+  No Text Input
+  No Video Playback
+  No Voice Input
+  Noise Cancel
+  Noise Level
+  Non RDS detect:
+  Number of TPEG Files which should be kept
+  Number of received TPEG Files
+  OBER S1A (%)
+  OBER S1B (%)
+  OBER S2A (%)
+  OBER S2B (%)
+  OBER TERA (%)
+  OBER TERB (%)
+  OCRN
+  Oil level: 
+  Oil: 
+  Oillevel: 
+  On-board Computer (BCMFA): 
+  On-board computer (BCMFA): 
+  Online Services
+  Online services settings
+  Open speller handles
+  Operating hours:
+  Owners Verification Reset
+  P/D Type
+  PDC audio lowering: 
+  PLL lock
+  POI SupraReg radius (KiMeter)    :
+  POI max radius (KiMeter)         :
+  POI min radius (Meter)           :
+  POI radius incr (KiMeter)        :
+  PTy Code
+  PTy Label (short)
+  Parkheating: 
+  Parking system (OPS/PDC): 
+  Parking system (PDC/OPS): 
+  Passanger seat (slave): 
+  Patch MirrorLink config
+  Patches MirrorLink config to allow usage of any app while driving.
+  Patches depend on HMI version. Reboot the unit after enabling/disabling.
+  Pedestrian assist: 
+  Persistence reset:
+  Persistence vault
+  Phase div.:
+  Phone
+  Phone Profile Info
+  Phone book Download Info
+  Phonecall timer (min)
+  Pixel format
+  Play predef. prompt
+  Play prompt in file
+  Plugged Devices
+  Pos. of tuned Frq.
+  Position Street Additional Attributes
+  Position Street Network
+  Power down delay (min)
+  Power save (s)
+  Prepare USB Signal Integrity Test on USB 1
+  Prepare USB Signal Integrity Test on USB 2
+  Press2 gesture:
+  Prev predef. prompt
+  Prev prompt in file
+  Primary Flag
+  Priority 01
+  Priority 02
+  Priority 03
+  Priority 04
+  Priority 05
+  Priority 06
+  Priority 07
+  Priority 08
+  Priority 09
+  Priority 10
+  Priority 11
+  Priority 12
+  Priority 13
+  Priority 14
+  Priority 15
+  Priority 16
+  Protection Level
+  Protocols
+  Q-Threshold, TMC serv. receivable
+  Q-Threshold, TMC service dropped
+  Q-Watchdog
+  QA Demute
+  QA Mute
+  QS Deletion Threshold
+  QS Insertion Threshold
+  Q_In list:
+  Q_Out list:
+  QiChargeIcon: shows wireless charging status (active/inactive) icon in
+  Qin list:
+  Qout list:
+  Quality
+  RF AGC engaged
+  RFRevMajor
+  RSE
+  RSErrs SAT Symb (%)
+  RSErrs TER Symb (%)
+  RSErrsWords (%)
+  RTP client for telephony
+  RTP client for voice control
+  RTP payload type:
+  RTP server for telephony
+  RTP server for voice control
+  RVC as RVC_Low: 
+  Radiotext
+  Range data: 
+  Rear seat entertainment (RSE): 
+  Reason code
+  Reason text
+  Reboot after installing new files.
+  Receiver library version
+  Record Precompiled Route
+  RefFrequOffset (Hz)
+  Refreshing
+  Refreshing AM FM
+  Refreshing DAB
+  Registration state
+  Repeat Scope Settings
+  Replay log file
+  Reset consumed data traffic
+  Reset counter auto
+  Reset counter manual
+  Reset statistics
+  Reset unsupervised adaptations
+  Restore Default Timer
+  Restore HMI from backup
+  Restore MirrorLink config from backup
+  Restore SWAP from backup
+  Restore SWDL from backup
+  Restore carplay oem icon from backup
+  Restore online services settings from backup
+  Restore radio station logo DB from backup
+  Restore ringtones from backup
+  Restore startup animations from backup
+  Restore systemsounds from backup
+  Restore tts from backup
+  Reversible belt tightener (RGS): 
+  Rightclick duration (15.6ms):
+  Rightclick gesture:
+  Ringtones
+  Rotate gesture:
+  RotateStep (Degree):
+  S1 QPSK
+  S1 TDM
+  S1A OTDM
+  S1B OTDM
+  S2 QPSK
+  S2 TDM
+  S2A OTDM
+  S2B OTDM
+  SDS
+  SDS  current:
+  SDS  max:
+  SDS  min:
+  SDS errors
+  SDS target medium
+  SIG Data - Syncronized Image
+  SWAP manager
+  SWDL (min)
+  SWDL history
+  SWDL manager
+  SXiRevMajor
+  SYNC
+  Sampling period (ms)
+  Save Data
+  Save extended system info to Toolbox drive
+  Scan-Seek Threshold
+  Screen saver
+  Seat memory: 
+  Seat pneumatic: 
+  Seek_Down
+  Seek_Up
+  Select Page:
+  Select next file
+  Select prev file
+  Selected DAB TP Service
+  Selected FM TP Service
+  Selected file
+  Selected predefined prompt
+  Selected prompt in file
+  Selftest
+  Service Component Label
+  Service Index within Ensemble
+  Service Label
+  Service Table
+  Service interval (SIA) : 
+  Service interval (SIA): 
+  Show Multible Position im Map
+  Show short system info
+  Sideview camera: 
+  Signal quality composite
+  Signal quality detailed
+  Signal quality satellite
+  Signal quality terrestrial
+  SignalStrength (dBm)
+  Signature type
+  Skip NEXT Service
+  Skip PREV Service
+  Sleep (min)
+  Sound Settings
+  Special functions: 
+  Speech Component Version
+  Speed by ampl.:
+  SpeedWarnFix: restores the 'Speed warning' item in the cluster MFA menu
+  Sport HMI: 
+  Standby (min)
+  Start-Stop: 
+  State
+  StationList
+  Statistics
+  Stereo Threshold
+  Stop predef. prompt
+  Stop prompt in file
+  Stop replay
+  Store CAR menuoperation
+  Store CAR-devicelists (BAP/CAN) & devicebusassignment
+  Sub-Menues:
+  Subscription status audio
+  Subscription status data
+  Subwoofer Activity Flag
+  Supervised profile adaption?
+  Surround Activity Flag
+  Suspend date
+  Switch to MLP:
+  System
+  System  current:
+  System  max:
+  System  min:
+  System Mute
+  System sounds
+  System-Watchdog
+  TER MCM
+  TER TDM
+  TERA OTDM
+  TERB OTDM
+  TII Table
+  TM ID
+  TMC List
+  TMC Tun 1 Stat TMC1/TMC2/Audio
+  TMC Tun 2 Stat
+  TMC_3.0    (...MIB2 with 600ms polling! )
+  TMC_V2.0     (...with 600ms polling)
+  TPEG Content Provider Source
+  TPEG Profiles
+  TSD Enable Watchdog Reset
+  TTS Engine Version
+  TUN1 FRQ (AM):
+  TUN1 FRQ (FM):
+  TUN1 FRQ:
+  TUN2 FRQ (AM):
+  TUN2 FRQ (FM):
+  TUN2 FRQ:
+  TUN3 FRQ (FM):
+  TUN3 FRQ(AM):
+  TUN3 FRQ:
+  TUN_DAB_MANUAL_16K
+  TV-Tuner: 
+  Target value:
+  Target_stations
+  Tel  current:
+  Tel  max:
+  Tel  min:
+  Testmode
+  Text-to-speech sounds
+  Think blue trainer: 
+  Think-blue (BCmE): 
+  Think.blue (BCmE): 
+  This screen can be used to replace ringtones and sounds of the MIB.
+  Threshold AGC
+  Tilt angle: 
+  Time:
+  To apply the changes always reboot the unit with the button
+  Traffic  current:
+  Traffic  max:
+  Traffic  min:
+  Traffic Messages All
+  Traffic dynamic routing range:
+  Traffic horizon range:
+  Traffic shaping active
+  Traffic sign detection (VZE): 
+  Traffic sign recognition (VZE): 
+  Trailer assist (ARA): 
+  Trailer: 
+  Transmission Mode
+  Tube:
+  Tuner
+  Tuner 1
+  Tuner 1 measurement
+  Tuner 1-2  (...with 600ms polling)
+  Tuner 1-2-3
+  Tuner 1:
+  Tuner 2:
+  Tuner 3:
+  Tuner Source and current Quality
+  Tuner measurement
+  Tuner_1_2_3
+  Tunnel Detection Threshold
+  TurboWordErrRate (Pipe 0A) (%)
+  TurboWordErrRate (Pipe 0B) (%)
+  TurboWordErrRate (Pipe 1A) (%)
+  TurboWordErrRate (Pipe 1B) (%)
+  TurboWordErrRate (Pipe 2A) (%)
+  TurboWordErrRate (Pipe 2B) (%)
+  Tyre pressure control (RKA/RDK): 
+  Tyre pressure system (RKA/RDK): 
+  USB Device ID Port 1
+  USB Device ID Port 2
+  USB Vendor ID Port 1
+  USB Vendor ID Port 2
+  Uni. garage door opener (UGDO): 
+  Unitmaster (ZEM): 
+  Unknown
+  Unsupervised adaptations
+  Use VIN from CAN-bus
+  Use pre-recordings
+  User Application Type
+  VEHICLE_ACCELERATION
+  VIN
+  Vail. Framework:
+  Vehicle ID number (VIN): 
+  Version DB Intern Travelguide :
+  Version DB Main:
+  Version DSI: 
+  Version Hardware:
+  Version Map Viewer:
+  Version Software:
+  Versions front plate (only PQ)
+  Video downscaling
+  Video interpolation
+  Video parking system (VPS/RVC): 
+  Video upscaling
+  Volume Offset:
+  Volume SEEK_FW_BW
+  Volume factor:
+  Volume:
+  WARNING: These screens have the potential to break your unit and void your
+  WBS activity
+  Weariness recognition (MKE): 
+  WiFi channel:
+  WiFi test mode frequency
+  WiFi transmitter test mode
+  Window: 
+  Wiper: 
+  WrongPI accept:
+  ZDC Parameter:
+  Zoom gesture:
+  ZoomStep (Pixel):
+  activation
+  activity 0-none 1-Learn 2-TA
+  additional debug destination
+  all log configurations
+  alter Channel DEC
+  alter Channel INC
+  alter Service DEC
+  alter Service INC
+  and its setting in the HMI (lost e.g. after head unit swap) on every boot.
+  available TMC stations
+  available travel guides
+  brick your unit! All you do and use is at your own risk!
+  check file system
+  chose log configuration no.
+  clamp_state
+  config_table_persist
+  configuration transfer status
+  copy configuration to SDCard
+  core file device
+  current log configuration
+  dataset version:
+  deactivate health
+  debug destination
+  decr. BW
+  delete EEPROM user data
+  delete all msgs
+  delete eMMC persistence
+  delete internal log files
+  dim_DI1_Display
+  dim_DI1_Sensor
+  dim_PT1 on/off:
+  dim_PT1_HMI on/off
+  dim_PT1_On_Off_Display
+  dim_PWM_calc
+  dim_PWM_output
+  dim_P_Ambi
+  dim_P_Poti
+  dim_Tau_ab
+  dim_Tau_auf
+  dim_display_brightness_step1
+  dim_display_brightness_step2
+  dim_display_brightness_step3
+  dim_display_brightness_step4
+  dim_display_brightness_step5
+  distance counter:
+  dump EEPROM data
+  eCall: 
+  eMMC content (exFAT/NTFS SD card/USB drive + ~7.3 GB free space required)
+  eMMC: Memory in kB
+  flash or programming process! Power failure during flashing/programming will
+  iMX6 root
+  iTagging Readyness
+  import log configuration from SD
+  incr. BW
+  input_config_table
+  lens  timer displ. 1:
+  lens  timer displ. 2:
+  library version:
+  manip. MOST FOT temp.
+  manip. syst. temp.
+  manual SWDL:
+  mic input level:
+  min. Demute Ramp Duration
+  mode:
+  nav_angle_confidence
+  nav_driving_direction
+  nav_set_calibration_to_car_default
+  nav_speed_confidence
+  nav_status_length_calibration
+  nav_status_rotray_calibration
+  nav_wheel_circumfence
+  nav_wheel_impulse_per_rotation
+  no_PS_changes
+  operating hours:
+  or software. We're always looking for cool hacks and retrofits to increase
+  person, car or brand.
+  reset  all audio
+  reset audio counter
+  reset dist. counter:
+  reset total tmc
+  resets all counter
+  resets tmc1 counter
+  resets tmc2 counter
+  restore configuration from SDCard
+  save internal log files to sd card
+  scan
+  selected log configuration
+  set BW auto
+  start tracelogger
+  state last audio req.:
+  status
+  the potential of the MQB platform. It's never our intention to harm any
+  the status bar, like on MHI2. Requires installed and coded Qi charger.
+  tun_n_PS_changes_scroll_detect 
+  use DRC
+  v0.1 Initial version by YOX.
+  v0.11 Slightly restructured and added placeholder pages for future features.
+  v0.2 Added installer, updater and uninstaller to GreenMenu. New install method.
+  v0.3 Utilities added for global usage. Dump menu added. Update seperated.
+  v0.4 Direct patch for mirrorlink an navigation. Restore/ Backup function...
+  v0.5 Added several dump scripts. Add privacy screen. Script improvements.
+  v0.51 Added alternative installer for old units with GEM 3.5.
+  v0.6 Scripts now in factory folder. Added adaptation features. Added
+  v0.7 Rearrangement of the main menu. Scripts optimisations and speed-ups.
+  v0.7.1 Sysinfo is extended, console, telnet + ftp and qconn activations
+  v0.8 Added: eMMC/J5/iMX6 dumpers, SWDL patcher, improved RSDB update,
+  v0.8.1 POI import, skin improvements, carplay and tts added, sanity and fixes.
+  v0.8.2 Fixed GEM update hashes. Added 516 Support for SWDL patcher.
+  v0.8.3 Added support for US ZR 241 and EU ZR 369 in SWDL patcher.
+  v0.9 Added functionality to patch SWAP directy from within toolbox menu.
+  v1.0 Added functionality to patch CP directy from within toolbox menu.
+  v1.0.1 Extended firmware support in live patching scripts.
+  v1.0.2 Changing support dumps for further development. Extended support.
+  v1.1 Extended firmware support. Improved detection. Permanent Telnet...
+  v1.1.1 Extended firmware support and some bugfixing / improvements.
+  v1.1.2 CP 01xx bugfix release
+  v1.2 Small update for sanity checks and autoupdating GEM 4.3 and added FW.
+  v1.2.1 Disable CP for 01xx firmware because it's not working well.
+  v1.3 Adding USB2HSD and cpustd support as well as more compatibility.
+  v1.3.1 Bugfix to install.sh for USB2HSD installation.
+  v1.3.2 Added navignore, bigfixing and extended support
+  v1.3.3 Bugfix-Release and extended support
+  v1.4 Added buttonremapping and extended support
+  v1.4.1 Added more button remappings and bug fixing
+  v1.4.2 Added more button remappings and bug fixing
+  v1.5 Added a bunch of support for more trains
+  vCard export result
+  vCard parse errors
+  verbosity of trace domains
+  versions front plate (only PQ)
+  vnc state [%]:
+  warranty. Be careful! We're not responsible for any troubles to you, your car
+  write_hmi_parameter
+  write_sound_parameter

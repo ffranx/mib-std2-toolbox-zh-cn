@@ -1,0 +1,211 @@
+###########################################################################################
+# 
+# Custom Green Engineering Menu screen
+# Author:		YOX, Olli & lprot
+# Version:		1.0
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main -> Tools
+#
+###########################################################################################
+screen Tools MIBSTD2_Toolbox
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "按分类整理的工具"
+	poll 	0
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+
+keyValue
+    value   String sys 0x00000000 0
+	label 	"--- 补丁 ---"
+	poll 	0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/patch_swdl.sh"
+	label 	"补丁: swdownload 接受任意 metainfo"
+	
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/patch_swap.sh"
+	label 	"补丁: SWaP 并生成 EL"
+	
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/patch_cp.sh"
+	label 	"补丁: 关闭 CP (audiomgr)"
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+
+keyValue
+    value    String sys 0x00000000 0
+    label    "上面脚本在你的固件上不工作?"
+    poll     0
+
+keyValue
+    value    String sys 0x00000000 0
+    label    "请跑下面的脚本, 到 GitHub 提 issue"
+    poll     0
+	
+keyValue
+    value    String sys 0x00000000 0
+    label    "把文件发我们, 之后扩展支持 :-)"
+    poll     0
+	
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/dump_support.sh"
+	label 	"导出支持文件到 /dump/.../support"
+	
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+
+keyValue
+    value   String sys 0x00000000 0
+	label 	"--- 运行 ---"
+	poll 	0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/custom_script.sh"
+	label 	"运行卡根的 toolbox.sh"
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+	
+keyValue
+    value   String sys 0x00000000 0
+	label 	"--- 截图 ---"
+	poll 	0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/move_screenshots.sh"
+	label 	"把各盘截图集中到工具箱盘"
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0	
+
+keyValue
+    value   String sys 0x00000000 0
+	label 	"--- 地图 ---"
+	poll 	0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/update_maps.sh"
+	label 	"拷 /maps_new 到导航SD (16G 约1.5h)"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/copy_poi.sh"
+	label 	"从 U盘/SD 直接装 POI"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/update_poi.sh"
+	label 	"把 U盘的 POI 更新拷到 SD 待装"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/delete_poi.sh"
+	label 	"装完删掉 SD 上的 POI 更新"
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "--- 隐私 ---"
+    poll    0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_swdl_keep_fws.sh"
+	label 	"清 SWDL 历史, 只留不重复的固件"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_swdl_keep_last.sh"
+	label 	"清 SWDL 历史, 只留最后一次固件"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_cleanphonedata.sh"
+	label 	"删已存联系人(手机数据)"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_clean_corelogs.sh"
+	label 	"删崩溃(core)日志"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_clean_mediacache.sh"
+	label 	"删媒体缓存"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_clean_picturestore.sh"
+	label 	"删电台图片库"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_clean_stationdb_presets.sh"
+	label 	"删电台预置"
+
+keyValue
+    value   String sys 0x00000000 0
+	label 	""
+	poll 	0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "--- 安全 ---"
+    poll    0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/privacy_shadow.sh"
+	label 	"写自定义 shadow 到主机"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/restore_shadow.sh"
+	label 	"从备份恢复 shadow"
+
+keyValue
+    value    String sys 0x00000000 0
+    label    ""
+    poll     0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/util_reboot.sh"
+	label 	"重启主机"
+
+keyValue
+	value 	String sys 0x00000000 0
+	label 	""
+	poll 	0
+
+keyValue
+	value 	String sys 0x00000000 0
+	label 	"--- 开机自动安装 ---"
+	poll 	0
+
+keyValue
+	value 	String sys 0x00000000 0
+	label 	"ESD 更新后自动从 SD 重装工具箱"
+	poll 	0
+
+keyValue
+	value 	String sys 0x00000000 0
+	label 	"更新后首次开机须插工具箱卡"
+	poll 	0
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/activate_auto_install.sh"
+	label 	"开启开机自动安装"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/deactivate_auto_install.sh"
+	label 	"关闭开机自动安装"

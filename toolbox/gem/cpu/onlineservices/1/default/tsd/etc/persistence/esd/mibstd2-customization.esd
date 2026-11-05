@@ -1,0 +1,33 @@
+###########################################################################################
+# 
+# Custom Green Engineering Menu screen
+# Author: 		YOX, Olli & lprot
+# Version:		1.0
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main -> Customization
+#
+###########################################################################################
+screen Customization MIBSTD2_Toolbox
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "说明: 先用[导出]把主机文件拷到卡上"
+	poll 	0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "改好放 /custom 子目录后回本页"
+	poll 	0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "把它们写回(导入)主机"
+	poll 	0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+	poll 	0

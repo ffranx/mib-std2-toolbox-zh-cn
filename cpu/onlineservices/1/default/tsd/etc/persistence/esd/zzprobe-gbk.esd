@@ -1,0 +1,24 @@
+###########################################################################################
+# zh-probe: 中文字形探测屏
+###########################################################################################
+screen ZhProbe MIBSTD2_Toolbox
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "ABCDEFG abcdefg 0123456789 , . : ; ( ) [ ] - +"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "中文测试 工具箱 皮肤 导航 网络 导出"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "边界汉字: 一 汉 龍 齉 郁 懿"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "上面若是方框或空白, 说明 GEM 无中文字形"
+    poll    0

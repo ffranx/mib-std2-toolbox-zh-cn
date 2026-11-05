@@ -1,0 +1,59 @@
+###########################################################################################
+# 
+# Custom Green Engineering Menu screen
+# Author:		YOX, Olli & lprot
+# Version:		1.0
+# Disclaimer:   THIS SCREEN WILL VOID YOUR WARRANTY
+#
+###########################################################################################
+#
+# Main -> MIB STD2 Toolbox Main -> Customization -> Skins
+#
+###########################################################################################
+screen Skins Customization
+
+keyValue
+    value	String sys 0x00000000 0
+    label   "替换主机的文字/皮肤/图形/氛围色"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "images.mcf, 氛围色表和文本资源"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   "从 /custom/skins/skinX 拷入"
+    poll    0
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/copy_skins.sh"
+   label    "写 mcf/氛围色/文本到主机"
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/restore_skins.sh"
+   label    "从 /backup 恢复 mcf/氛围色/文本"
+
+keyValue
+    value   String sys 0x00000000 0
+    label   ""
+    poll    0
+
+script
+   value    sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/patch_menumode.sh"
+   label    "所有皮肤开用户可切菜单模式"
+
+script
+	value 	sys 1 0x0100 "/tsd/etc/persistence/esd/scripts/util_reboot.sh"
+	label 	"重启主机"
