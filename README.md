@@ -20,6 +20,20 @@
 - 未改动：`metainfo2.txt`（逐字节等于上游，`MetafileChecksum = c7ecf8e46fb5915962f2d831a9460974a3f5f8a0` 已验证自洽）、所有 `.sh` 脚本、所有 jar、所有 SWDL 结构
 - `cpu/` 目录结构与上游一致，**本仓库根目录就是 SD 卡根目录**，下载解压后可直接拷到 FAT32 卡上使用
 
+## 下载
+
+| 方式 | 链接 | 说明 |
+|---|---|---|
+| 打好的 zip（推荐） | [Releases → v1.5.1-zh.1](https://github.com/ffranx/mib-std2-toolbox-zh-cn/releases/tag/v1.5.1-zh.1) | `MIB2-Toolbox-zh-CN-v1.5.1.zip`，解压即卡根 |
+| 仓库直接下载 | 本页 `Code → Download ZIP` | 仓库根目录**就是** SD 卡根目录，解压后直接用 |
+
+打好的 zip 校验：
+
+```
+SHA256  8735960bf3f1bedcc9f7f472a1ecfd61da893369bae1a84618b7bc4c8b31cd96
+文件大小 591865 字节（578 KB）
+```
+
 ## 当前状态
 
 | 项 | 状态 |
